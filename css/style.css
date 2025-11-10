@@ -1054,8 +1054,40 @@ body {
     display: none;
   }
 }
+.category-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.category-list .category-item {
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+.category-list .category-item .category-name {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.category-list .category-children {
+  padding-left: 1.5rem;
+  margin: 1rem 0 0 0;
+  list-style: none;
+}
+.category-item.category-uncategorized .category-name {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+.category-item.category-uncategorized .meta {
+  margin: 0;
+}
+.category-post-list {
+  margin: 0;
+}
 .post-list {
   padding: 0;
+}
+.post-list.category-post-list {
+  margin-left: 0;
 }
 .post-list .post-item {
   margin-bottom: 1rem;
