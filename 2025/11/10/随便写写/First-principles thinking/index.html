@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="一直觉得类比思维弊大于利。从沟通场景说，“类比” 表面上可以很快地减少双方的沟通理解成本，这是通过用双方都懂的一个场景，去解释当前有一方不懂的场景 做到的。懂的那一方想的是让不懂的那一方给出“我懂了”的反馈，但其实对方真的懂了吗，不一定，懂的那一方可能也不在乎，他只想此刻对方说”我懂了“。这是一种偷懒的行为。这样做很有可能并没有让双方的理解达成一致，原因是，1）即使对于举的那个双方都懂的例子，双方">
+<meta property="og:type" content="article">
+<meta property="og:title" content="First-principles Thinking">
+<meta property="og:url" content="http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/index.html">
+<meta property="og:site_name" content="pynzzZ">
+<meta property="og:description" content="一直觉得类比思维弊大于利。从沟通场景说，“类比” 表面上可以很快地减少双方的沟通理解成本，这是通过用双方都懂的一个场景，去解释当前有一方不懂的场景 做到的。懂的那一方想的是让不懂的那一方给出“我懂了”的反馈，但其实对方真的懂了吗，不一定，懂的那一方可能也不在乎，他只想此刻对方说”我懂了“。这是一种偷懒的行为。这样做很有可能并没有让双方的理解达成一致，原因是，1）即使对于举的那个双方都懂的例子，双方">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-11-10T09:41:00.000Z">
+<meta property="article:modified_time" content="2025-11-11T01:46:37.594Z">
+<meta property="article:author" content="pynzzZ">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>First-principles Thinking</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/2025/11/07/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/%E5%88%9D%E6%8E%A2%20HBase/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&text=First-principles Thinking"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&is_video=false&description=First-principles Thinking"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=First-principles Thinking&body=Check out this article: http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&name=First-principles Thinking&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&t=First-principles Thinking"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text"></span></a></li></ol>
+      </div>
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        First-principles Thinking
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">pynzzZ</span>
+      </span>
+      
+    
+    
+    
+    
+    
+    
+    
+    <div class="postdate">
+      
+        <time datetime="2025-11-10T09:41:00.000Z" class="dt-published" itemprop="datePublished">2025-11-10 17:41:00</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fa-solid fa-archive"></i>
+        <a class="category-link" href="/categories/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/">随便写写</a>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <p>一直觉得类比思维弊大于利。从沟通场景说，“类比” 表面上可以很快地减少双方的沟通理解成本，这是通过用双方都懂的一个场景，去解释当前有一方不懂的场景 做到的。懂的那一方想的是让不懂的那一方给出“我懂了”的反馈，但其实对方真的懂了吗，不一定，懂的那一方可能也不在乎，他只想此刻对方说”我懂了“。这是一种偷懒的行为。这样做很有可能并没有让双方的理解达成一致，原因是，1）即使对于举的那个双方都懂的例子，双方理解也很有可能是不一致的；2）类比和被类比的两个场景其实根本不能类比，因为存在本质上的不同。其中第二点是我认为所有类比思维都大概率存在的问题，这会导致类比得到的结论是错的。</p>
+<p>类比是一种修辞方式，但很难成立为一种严格的推理方式。</p>
+<p>最近接触到了第一性原理（First-principles Thinking）这个概念，我觉得很受用（这篇文章讲得不错：<a target="_blank" rel="noopener" href="https://fs.blog/first-principles/%EF%BC%89%E3%80%82">https://fs.blog/first-principles/）。</a></p>
+<p>后面会开始在工作和生活中刻意练习这种思维方式，看看会不会带来一些奇效。这篇文章持续更新平时关于第一性原理的思考和实践。</p>
+<p>文章里提到的苏格拉底式的提问方式，跟第一性原理有不谋而合之处。这里做个摘抄，尝试一下是否具有实践指导意义：</p>
+<p>Socratic Questioning</p>
+<ol>
+<li>Clarifying your thinking and explaining the origins of your ideas (Why do I think this? What exactly do I think?)</li>
+<li>Challenging assumptions (How do I know this is true? What if I thought the opposite?)</li>
+<li>Looking for evidence (How can I back this up? What are the sources?)</li>
+<li>Considering alternative perspectives (What might others think? How do I know I am correct?)</li>
+<li>Examining consequences and implications (What if I am wrong? What are the consequences if I am?)</li>
+<li>Questioning the original questions (Why did I think that? Was I correct? What conclusions can I draw from the reasoning process?)</li>
+</ol>
+<p>The real power of first-principles thinking is moving away from incremental improvement and into possibility.</p>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1>
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+      <div id="toc-footer" style="display: none">
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text"></span></a></li></ol>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&text=First-principles Thinking"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&is_video=false&description=First-principles Thinking"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=First-principles Thinking&body=Check out this article: http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&title=First-principles Thinking"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&name=First-principles Thinking&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2025/11/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/First-principles%20thinking/&t=First-principles Thinking"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        
+          <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2025
+    pynzzZ
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
